@@ -1,3 +1,3 @@
-# TIL
+# Today I Learned
 
-Today I Learned (TIL)
+꾸준히 공부한 기록 남기기
