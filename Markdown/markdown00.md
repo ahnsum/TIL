@@ -93,8 +93,8 @@
 <br/>
 
 ### 1.3. 텍스트
-* 강조 (`**` / `__`)
-    -HTML의 `<bold>`
+* 강조 (`**` / `__`)  
+    -HTML의 `<bold>`  
 
         This is **Bold**
         This is __Bold__
@@ -103,8 +103,8 @@ This is **Bold**
 This is __Bold__
 <br/>
 
-* 기울임 (`*` / `_`)
-    -HTML의 `<i>`
+* 기울임 (`*` / `_`)  
+    -HTML의 `<i>`  
 
         This is *Italic*
         This is _Italic_
@@ -113,16 +113,14 @@ This is *Italic*
 This is _Italic_
 <br/>
 
-* 밑줄 (`<u>`)
-    -HTML의
+* 밑줄 (`<u>`)  
 
         <u>This is Underline</u>
 
 <u>This is Underline</u>
 <br/>
 
-* 취소선 (`~~`)
-    -HTML의
+* 취소선 (`~~`)  
 
         ~~This is Canceled~~
 
@@ -140,8 +138,8 @@ This is _Italic_
         ==Highlighter==
         <mark>Highlighter</mark>
 
-==Highlighter==  
 
+==Highlighter==  
 <mark>Highlighter</mark>
 
 <br/>
@@ -317,8 +315,8 @@ Hello. <br> This is Markdown.
 <br/>
 
 * 이미지 링크 <u>`![image](이미지 주소)`</u>
-    -로컬 파일 경로도 가능
-    -그림 자체에 링크 걸기 가능
+    -로컬 파일 경로도 가능  
+    -그림 자체에 링크 걸기 가능  
 
         ![image](이미지 주소)
         ![image](이미지 주소)(이동하려는 링크 주소)
