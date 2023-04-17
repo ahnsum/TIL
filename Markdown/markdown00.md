@@ -140,7 +140,8 @@ This is _Italic_
         ==Highlighter==
         <mark>Highlighter</mark>
 
-==Highlighter==
+==Highlighter==  
+
 <mark>Highlighter</mark>
 
 <br/>
@@ -229,7 +230,7 @@ end code block.
 
 <br/>
 
----
+
 
 * 코드 블럭
 
@@ -357,7 +358,7 @@ Hello. <br> This is Markdown.
 <br/>
 
 
-### 1.7. 토글 리스트 (접기/펼치기)
+### 1.9. 토글 리스트 (접기/펼치기)
 
 * HTML의 `details` 태그 사용
 * <u>`div markdown="1"`</u> 은 html 사이에 markdown 인식하기 위한 코드
@@ -387,7 +388,7 @@ Hello. <br> This is Markdown.
 
 <br/>
 
-### 1.9. 버튼
+### 1.10. 버튼
 
 * 링크 부분 `#` 은 페이지 맨 위로 이동
 
