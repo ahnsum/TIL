@@ -191,6 +191,8 @@ end code block.
 <br/>
 
 #### 형광펜
+
+```css
 <span style='background-color:#FFF5B1'>노란형광펜</span>
 <span style='background-color:#D7D3D1'>회색형광펜</span>
 <span style='background-color:#BBDEFB'>파랑형광펜</span>
@@ -198,3 +200,4 @@ end code block.
 <span style='background-color:#C0F2A1'>초록형광펜</span>
 <span style='background-color:#D1C0ED'>보라형광펜</span>
 <span style='background-color:#FFCFB0'>주황형광펜</span>
+```
