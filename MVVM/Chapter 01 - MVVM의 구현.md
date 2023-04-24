@@ -172,3 +172,17 @@ public partial class MainWindow : Window
     }
 }
 ```
+
+---
+
+* INotifyPropertyChanged
+
+    - WPF(Windows Presentation Foundation)에서 MVVM 패턴을 구현하기 위해 꼭 써야하는 인터페이스  
+
+    - XAML에서 디자인 한 폼에서 데이터의 즉각적인 변화 또는 데이터를 가져올 때 쓰는 인터페이스  
+
+    - Model에서 멤버 변수를 생성하고 ViewModel에서 INotifyPropertyChanged의 인터페이스를 상속 받고, 메서드를 생성해서 데이터의 변화를 감지하도록 세팅하고 View(XAML)에서 데이터의 송수신이 필요한 곳에 { Binding ___ }을 하면 값들을 가져오도록 설계하는 것  
+
+    - 한 가지 중요한 점은 일반적으로 버튼을 클릭했을 때에 Click이라는 이벤트 처리를 하는데 MVVM 패턴으로 보면 이 방법은 좋지 않기 때문에 Command라는 인터페이스를 사용하여 버튼과 같은 이벤트를 처리  
+
+View에서는 Binding 작업을 통해 ViewModel에서 변경될 값을 연결하고 ViewModel에서 변경되는 점을 확인하는 것이다. INotifyPropertyChanged도 이를 토대로 ViewModel에서 작업하는 것이 바람직하다.  
